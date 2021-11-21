@@ -1,0 +1,25 @@
+
+class Pizza:
+    def __init__(self, size):
+        self.size = size
+        price = 0.0
+        self.price = price
+
+    def getPrice(self):
+        if self.size == 'S':
+            self.price = 8.0
+        elif self.size == 'M':
+            self.price = 10.0
+        elif self.size == 'L':
+            self.price = 12.0
+        return self.price
+
+    def setPrice(self, price):
+        self.price = price
+            
+
+    def getSize(self):
+        return self.size
+
+    def setSize(self, size):
+        self.size = size
